@@ -69,7 +69,7 @@ const Navbar = () => {
       <div className="relative flex gap-3 items-center">
         <Link
           href="/cart"
-          className="flex items-center gap-3 border rounded-lg px-2 py-1 hover:bg-black hover:text-white max-md:hidden"
+          className="flex items-center gap-3  rounded-lg px-2 py-1 hover:bg-black hover:text-white border-2 border-black max-md:hidden"
         >
           <ShoppingCart />
           <p className="text-base-bold">Giỏ hàng ({cart.cartItems.length})</p>
